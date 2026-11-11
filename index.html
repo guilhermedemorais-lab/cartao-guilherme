@@ -38,7 +38,7 @@ body{
     box-shadow:0 15px 40px rgba(0,0,0,.35);
 }
 
-/* Área clicável do botão Adicionar Contato */
+/* BOTÃO ADICIONAR CONTATO */
 
 .add-contact{
     position:absolute;
@@ -46,8 +46,40 @@ body{
     top:44%;
     width:56%;
     height:6%;
-    z-index:999;
-    cursor:pointer;
+    z-index:1000;
+}
+
+/* CARD CONTATO */
+
+.telefone{
+    position:absolute;
+    left:12%;
+    top:58%;
+    width:78%;
+    height:6%;
+    z-index:1000;
+}
+
+/* CARD SITE */
+
+.site{
+    position:absolute;
+    left:12%;
+    top:72%;
+    width:78%;
+    height:6%;
+    z-index:1000;
+}
+
+/* CARD INSTAGRAM */
+
+.instagram{
+    position:absolute;
+    left:12%;
+    top:79%;
+    width:78%;
+    height:6%;
+    z-index:1000;
 }
 
 </style>
@@ -63,10 +95,34 @@ class="cartao"
 src="Designer_Final.png"
 alt="Cartão Digital">
 
+<!-- ADICIONAR CONTATO -->
 <a
 class="add-contact"
 href="Guilherme_de_Morais.vcf"
 title="Adicionar contato">
+</a>
+
+<!-- TELEFONE -->
+<a
+class="telefone"
+href="tel:+5518996057468"
+title="Ligar">
+</a>
+
+<!-- SITE -->
+<a
+class="site"
+href="https://www.integraps.com.br"
+target="_blank"
+title="Abrir Site">
+</a>
+
+<!-- INSTAGRAM -->
+<a
+class="instagram"
+href="https://www.instagram.com/integra.solucoes.projetos/"
+target="_blank"
+title="Abrir Instagram">
 </a>
 
 </div>
