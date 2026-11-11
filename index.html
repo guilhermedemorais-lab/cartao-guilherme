@@ -22,7 +22,6 @@ body{
     justify-content:center;
     align-items:flex-start;
     padding:20px;
-    font-family:'Segoe UI',sans-serif;
 }
 
 .container{
@@ -38,52 +37,62 @@ body{
     box-shadow:0 15px 40px rgba(0,0,0,.35);
 }
 
-/* BOTÃO ADICIONAR CONTATO */
+/* Adicionar Contato */
 
 .add-contact{
     position:absolute;
     left:22%;
-    top:44%;
+    top:42%;
     width:56%;
     height:6%;
     z-index:1000;
 }
 
-/* CARD CONTATO */
+/* WhatsApp (Card Contato) */
 
-.telefone{
+.whatsapp{
     position:absolute;
-    left:12%;
-    top:58%;
-    width:78%;
+    left:10%;
+    top:54%;
+    width:80%;
     height:6%;
     z-index:1000;
 }
 
-/* CARD SITE */
+/* Email */
+
+.email{
+    position:absolute;
+    left:10%;
+    top:61%;
+    width:80%;
+    height:6%;
+    z-index:1000;
+}
+
+/* Site */
 
 .site{
     position:absolute;
-    left:12%;
-    top:72%;
-    width:78%;
+    left:10%;
+    top:68%;
+    width:80%;
     height:6%;
     z-index:1000;
 }
 
-/* CARD INSTAGRAM */
+/* Instagram */
 
 .instagram{
     position:absolute;
-    left:12%;
-    top:79%;
-    width:78%;
+    left:10%;
+    top:75%;
+    width:80%;
     height:6%;
     z-index:1000;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -102,11 +111,19 @@ href="Guilherme_de_Morais.vcf"
 title="Adicionar contato">
 </a>
 
-<!-- TELEFONE -->
+<!-- WHATSAPP -->
 <a
-class="telefone"
-href="tel:+5518996057468"
-title="Ligar">
+class="whatsapp"
+href="https://wa.me/5518996057468"
+target="_blank"
+title="WhatsApp">
+</a>
+
+<!-- EMAIL -->
+<a
+class="email"
+href="mailto:guilherme.morais@integraps.com.br"
+title="Enviar email">
 </a>
 
 <!-- SITE -->
@@ -114,7 +131,7 @@ title="Ligar">
 class="site"
 href="https://www.integraps.com.br"
 target="_blank"
-title="Abrir Site">
+title="Site">
 </a>
 
 <!-- INSTAGRAM -->
@@ -122,11 +139,10 @@ title="Abrir Site">
 class="instagram"
 href="https://www.instagram.com/integra.solucoes.projetos/"
 target="_blank"
-title="Abrir Instagram">
+title="Instagram">
 </a>
 
 </div>
 
 </body>
-
 </html>
