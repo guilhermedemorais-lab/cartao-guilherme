@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Guilherme de Morais</title>
 
 <style>
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-margin:0;
-background:#003d6b;
+    background:#003d6b;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
 }
 
 .container{
-max-width:1080px;
-margin:auto;
-position:relative;
+    width:100%;
+    max-width:420px;
+    position:relative;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,.40);
 }
 
-img{
-width:100%;
-display:block;
+.cartao{
+    width:100%;
+    display:block;
 }
 
-/* Área do botão preto Adicionar contato */
-.botao-contato{
-position:absolute;
-left:24%;
-top:40%;
-width:52%;
-height:5%;
-display:block;
-z-index:999;
+/* Área clicável do botão Adicionar Contato */
+
+.add-contact{
+    position:absolute;
+    left:22%;
+    top:45%;
+    width:56%;
+    height:6%;
+    display:block;
+    z-index:999;
+    cursor:pointer;
 }
 
 </style>
@@ -42,15 +59,20 @@ z-index:999;
 
 <div class="container">
 
-<img src="Designer_Final.png">
+<img
+class="cartao"
+src="Designer_Final.png"
+alt="Cartão Digital">
 
 <a
-class="botao-contato"
+class="add-contact"
 href="Guilherme_de_Morais.vcf"
-target="_blank">
+download
+title="Adicionar Contato">
 </a>
 
 </div>
 
 </body>
+
 </html>
